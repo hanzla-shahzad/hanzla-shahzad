@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projct-2</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="project2.css">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
+    <!-- When screen is scroll items are fade up -->
+    <script>
+        AOS.init({
+            easing: 'ease-out',
+            once: true,
+            duration: 700,
+        });
+    </script>
+
+    <section class="container-fluid">
+        <header  id="navbar">
+
+            <nav class="navbar navbar-expand-md w-100" style="background-color: #fff;z-index: 9999;height: 60px;">
+                <div class="container">
+                    <div class="navbar-brand me-auto fw-bolder fs-3" style="color: #52d3aa;">Elate</div>
+                    <button type="button" class="navbar-toggler" data-bs-target="#navtog" data-bs-toggle="collapse">
+                        <pan class="navbar-toggler-icon"></pan>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navtog">
+                        <ul class="navbar nav mt-5 ms-auto">
+                            <li class="nav-item"><a href="#section1" class="nav-link text-dark">Home</a></li>
+                            <li class="nav-item"><a href="#section2" class="nav-link text-dark">Work</a></li>
+                            <li class="nav-item"><a href="#section3" class="nav-link text-dark">Testimonials</a></li>
+                            <li class="nav-item"><a href="#section4" class="nav-link text-dark">Services</a></li>
+                            <li class="nav-item"><a href="#section5" class="nav-link text-dark">About</a></li>
+                            <li class="nav-item"><a href="#section6" class="nav-link text-dark">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+    </section>
+
+
+    <script>
+        // When the user scrolls down 20px from the top of the document, slide down the navbar
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
+            document.getElementById("navbar").style.top = "0";
+          } else {
+            document.getElementById("navbar").style.top = "-90px";
+          }
+        }
+        </script>
+
+
+    <div class="container-fluid" id="section1">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12">
+                <div class="gradiant text-center">
+                    <div class="container">
+                        <nav class="navbar navbar-expand-md d-md-none d-sm-none d-xs-none d-lg-flex">
+
+                            <div class="navbar-brand me-auto text-light fw-bolder fs-3">Elate</div>
+                            <button type="button" class="navbar-toggler" data-bs-target="#navtog"
+                                data-bs-toggle="collapse">
+                                <pan class="navbar-toggler-icon"></pan>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navtog">
+                                <ul class="navbar nav mt-5 ms-auto">
+                                    <li class="nav-item"><a href="#section1" class="nav-link hover"
+                                            style="text-decoration: underline;color: white;">Home</a></li>
+                                    <li class="nav-item"><a href="#section2" class="nav-link hover">Work</a></li>
+                                    <li class="nav-item"><a href="#section3" class="nav-link hover">Testimonials</a></li>
+                                    <li class="nav-item"><a href="#section4" class="nav-link hover">Services</a></li>
+                                    <li class="nav-item"><a href="#section5" class="nav-link hover">About</a></li>
+                                    <li class="nav-item"><a href="#section6" class="nav-link hover">Contact</a></li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                    <div id="mt">
+                        <h1 class="text-light" data-aos="fade-up">Do Only What You Love.</h1>
+                        <h2 class="" style="font-weight: 300;font-size: 25px;color: rgb(255 255 255 / 80%);"
+                            data-aos="fade-up" data-aos-delay="50">Elate is a
+                            Free HTML5 Bootstrap Template Released Under Creative</h2>
+                        <span class=" fs-4 fw-lighter" style="border-bottom:0.5px dashed aliceblue;color: white;"
+                            data-aos="fade-up" data-aos-delay="80">Commons 3.0</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12">
+                <img src="https://themewagon.github.io/elate/images/full_image_2.jpg" class="rounded picture-wrap"
+                    alt="">
+            </div>
+        </section>
+    </div>
+
+    <div class="row margin-top-2">
+        <div class="col-lg-4 d-flex align-items-center float-end" data-aos="fade-left">
+            <div class="content text-center">
+                <i class="fa-regular fa-lightbulb fs-1 mt-2" style="color:  #52d3aa;"></i>
+                <h1 class="mt-3" style="font-size: 30px;font-weight: 400;">Plan</h1>
+                <p class="text-secondary mt-3">There's a sign on the wall, But she wants to be sure 'Cause you know
+                    sometimes words have two meanings.</p>
+                <button type="button" class="mt-3"
+                    style="background-color:#52d3aa; border: none;padding: 12px;font-size: 14px;border-radius: 5px;    letter-spacing: 2px;">GET
+                    IN TOUCH</button>
+            </div>
+        </div>
+
+        <div class="col-lg-4 d-flex align-items-center float-end z-50" data-aos="fade-left" data-aos-delay="100">
+            <div class="content-2 text-center">
+                <i class="fa-regular fa-lightbulb fs-1 mt-2" style="color:  #52d3aa;"></i>
+                <h1 class="mt-3" style="font-size: 30px;font-weight: 400;">Develop</h1>
+                <p class="text-secondary mt-3">There's a sign on the wall, But she wants to be sure 'Cause you know
+                    sometimes words have two meanings.</p>
+                <button type="button" class="mt-3"
+                    style="background-color:#52d3aa; border: none;padding: 12px;font-size: 14px;border-radius: 5px;    letter-spacing: 2px;">GET
+                    IN TOUCH</button>
+            </div>
+
+        </div>
+
+        <div class="col-lg-4 d-flex align-items-center float-end z-100" data-aos="fade-left" data-aos-delay="150">
+            <div class="content-3 text-center">
+                <i class="fa-regular fa-lightbulb fs-1 mt-2" style="color:  #52d3aa;"></i>
+                <h1 class="mt-3" style="font-size: 30px;font-weight: 400;">Launch</h1>
+                <p class="text-secondary mt-3">There's a sign on the wall, But she wants to be sure 'Cause you know
+                    sometimes words have two meanings.</p>
+                <button type="button" class="mt-3"
+                    style="background-color:#52d3aa; border: none;padding: 12px;font-size: 14px;border-radius: 5px;    letter-spacing: 2px;">GET
+                    IN TOUCH</button>
+            </div>
+
+        </div>
+
+    </div>
+    <div data-aos="fade-left">
+        <div class="container text-center" id="margin-top">
+            <span class="mt-5 pt-5" style="    display: block;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: bold;color: #8c8c8c;">Watch this video</span>
+        </div>
+        <div class="container text-center mt-2 con-9">
+            <i class="fa-solid fa-play" style="font-size: 60px;position: relative;left: 3px;"></i>
+        </div>
+    </div>
+
+
+    <div class="container-fluid">
+        <div class="Parent-Wrapper"></div>
+
+
+        <div class="Child-Wrapper text-center" id="section2">
+            <h2 class="text-light"
+                style="padding-top: 150px;font-size: 50px;font-weight: 300; text-transform: uppercase; line-height: 1.5;display: block;"
+                data-aos="fade-up">
+                Work </h2>
+            <div class="vertical-line-3 mt-4" data-aos="fade-up" data-aos-delay="80"></div>
+            <h3 class="mt-4 pt-2" style="color: white;font-size: 24px;font-weight: 300;" data-aos="fade-up"
+                data-aos-delay="150">If there's a bustle in your
+                hedgerow. Don't be alarmed now. It's just a spring<br>clean for the May queen.</h3>
+
+            <div class="container" style="margin-top: 80px;">
+                <div class="row mt-5 pt-5">
+                    <div class="col-lg-4 col-md-6 col-sm-12 " data-aos="fade-up">
+                        <div class="card Child-Wrapper-2" style="max-width: 100%;">
+                            <img class="card-img-top" src="https://themewagon.github.io/elate/images/work_1.jpg" alt="">
+                            <div class="card-body" style="height: 62px;">
+                                <h4 class="card-title" style="position: relative;right: 123px;bottom: 10px;
+                            font-size: 18px;
+                            font-weight: bold;">Project 1</h4>
+                                <p class="card-text float-start" style="color: #b3b3b3;
+                        font-size: 16px;
+                        font-weight: 400;position: relative;bottom: 15px;">Branding</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12" data-aos="fade-up" data-aos-delay="90">
+                        <div class="card Child-Wrapper-2" style="max-width: 100%;">
+                            <img class="card-img-top" src="https://themewagon.github.io/elate/images/work_2.jpg" alt="">
+                            <div class="card-body" style="height: 62px;">
+                                <h4 class="card-title" style="position: relative;right: 124px;bottom: 10px;
+                            font-size: 18px;
+                            font-weight: bold;">Project 2</h4>
+                                <p class="card-text float-start" style="color: #b3b3b3;
+                        font-size: 16px;
+                        font-weight: 400;position: relative;bottom: 15px;">Web</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 " id="margin-left" data-aos="fade-up" data-aos-delay="150">
+                        <div class="card Child-Wrapper-2" style="max-width: 100%;">
+                            <img class="card-img-top" src="https://themewagon.github.io/elate/images/work_3.jpg" alt="">
+                            <div class="card-body" style="height: 62px;">
+                                <h4 class="card-title" style="position: relative;right: 123px;bottom: 10px;
+                            font-size: 18px;
+                            font-weight: bold;">Project 3</h4>
+                                <p class="card-text float-start" style="color: #b3b3b3;
+                        font-size: 16px;
+                        font-weight: 400;position: relative;bottom: 15px;">Web</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row mt-4 pt-2" id="wrap-top-2">
+                    <div class="col-lg-4 col-md-6 col-sm-12" data-aos="fade-up">
+                        <div class="card Child-Wrapper-2" style="max-width: 100%;">
+                            <img class="card-img-top" src="	https://themewagon.github.io/elate/images/work_4.jpg"
+                                alt="">
+                            <div class="card-body" style="height: 62px;">
+                                <h4 class="card-title" style="position: relative;right: 123px;bottom: 10px;
+                           font-size: 18px;
+                           font-weight: bold;">Project 4</h4>
+                                <p class="card-text float-start" style="color: #b3b3b3;
+                       font-size: 16px;
+                       font-weight: 400;position: relative;bottom: 15px;">UI/UX</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12" data-aos="fade-up" data-aos-delay="90">
+                        <div class="card Child-Wrapper-2" style="max-width: 100%;">
+                            <img class="card-img-top" src="	https://themewagon.github.io/elate/images/work_5.jpg"
+                                alt="">
+                            <div class="card-body" style="height: 62px;">
+                                <h4 class="card-title" style="position: relative;right: 123px;bottom: 10px;
+                           font-size: 18px;
+                           font-weight: bold;">Project 1</h4>
+                                <p class="card-text float-start" style="color: #b3b3b3;
+                       font-size: 16px;
+                       font-weight: 400;position: relative;bottom: 15px;">Photography</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12" id="margin-left" data-aos="fade-up" data-aos-delay="150">
+                        <div class="card Child-Wrapper-2" style="max-width: 100%;">
+                            <img class="card-img-top" src="https://themewagon.github.io/elate/images/work_6.jpg" alt="">
+                            <div class="card-body" style="height: 62px;">
+                                <h4 class="card-title" style="position: relative;right: 124px;bottom: 10px;
+                           font-size: 18px;
+                           font-weight: bold;">Project 2</h4>
+                                <p class="card-text float-start" style="color: #b3b3b3;
+                       font-size: 16px;
+                       font-weight: 400;position: relative;bottom: 15px;">Illustration</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row mt-4 pt-2" id="wrap-top-2">
+                    <div class="col-lg-4 col-md-6 col-sm-12" data-aos="fade-up">
+                        <div class="card Child-Wrapper-2" style="max-width: 100%;">
+                            <img class="card-img-top" src="https://themewagon.github.io/elate/images/work_7.jpg" alt="">
+                            <div class="card-body" style="height: 62px;">
+                                <h4 class="card-title" style="position: relative;right: 123px;bottom: 10px;
+                       font-size: 18px;
+                       font-weight: bold;">Project 3</h4>
+                                <p class="card-text float-start" style="color: #b3b3b3;
+                   font-size: 16px;
+                   font-weight: 400;position: relative;bottom: 15px;">Web</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12" data-aos="fade-up" data-aos-delay="90">
+                        <div class="card Child-Wrapper-2" style="max-width: 100%;">
+                            <img class="card-img-top" src="https://themewagon.github.io/elate/images/work_8.jpg" alt="">
+                            <div class="card-body" style="height: 62px;">
+                                <h4 class="card-title" style="position: relative;right: 123px;bottom: 10px;
+                       font-size: 18px;
+                       font-weight: bold;">Project 4</h4>
+                                <p class="card-text float-start" style="color: #b3b3b3;
+                   font-size: 16px;
+                   font-weight: 400;position: relative;bottom: 15px;">Sketch</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12" id="margin-left" data-aos="fade-up" data-aos-delay="150">
+                        <div class="card Child-Wrapper-2" style="max-width: 100%;">
+                            <img class="card-img-top" src="https://themewagon.github.io/elate/images/work_1.jpg" alt="">
+                            <div class="card-body" style="height: 62px;">
+                                <h4 class="card-title" style="position: relative;right: 123px;bottom: 10px;
+                       font-size: 18px;
+                       font-weight: bold;">Project 2</h4>
+                                <p class="card-text float-start" style="color: #b3b3b3;
+                   font-size: 16px;
+                   font-weight: 400;position: relative;bottom: 15px;">Illustration</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p class="mt-5 pt-5" style="font-size: large; color: rgb(217 241 241);">* Demo images from <span
+                    style="border-bottom: 1px solid rgb(157 221 217);color: rgb(157 221 217);"> plmd.me</span></p>
+        </div>
+    </div>
+    <div class="Parent-Wrapper"></div>
+    </div>
+
+    <div class="container">
+        <div class="text-center" id="section3">
+            <h1 class="fw-lighter mt-5 pt-5" style="text-transform: uppercase;" data-aos="fade-up">TESTIMONIALS</h1>
+            <div class="vertical-line mt-4" data-aos="fade-up" data-aos-delay="80"></div>
+            <h3 class="mt-3 pt-2" style="color:#929292;font-size: 24px;font-weight: 300;" data-aos="fade-up"
+                data-aos-delay="150">If there's a bustle in your
+                hedgerow. Don't be alarmed now. It's just a spring<br>clean for the May queen.</h3>
+            <div class="row mt-5 pt-5">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <p class="row-wrapper-1 rounded" data-aos="fade-down">“Beyond the horizon of the place we lived when
+                        we were young, In a
+                        world of magnets and miracles. Our thoughts strayed constantly and without boundary, The ringing
+                        of the division bell had begun.”
+                        <i class="fa-solid fa-caret-down fs-3 float-start"
+                            style="position: relative;top: 46.5px;color: #52d3aa;"></i>
+                    </p>
+                    <div>
+                        <img class="float-start" src="	https://themewagon.github.io/elate/images/person1.jpg" alt=""
+                            style="    width: 60px; border-radius: 50%;margin-left: 10px;">
+                        <div class="pt-3" style="line-height: 7px;">
+                            <p class="float-start ms-3">
+                                Jean Doe, CEO <span><a href="#"
+                                        style="color: #52d3aa;text-decoration: none;">FREEHTML5.co</a></span></p>
+                            <span class="float-start ms-3" style="color: rgb(0 0 0 / 50%);">Creative Director</span>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12" id="top-wrap">
+                    <p class="row-wrapper-1 rounded" data-aos="fade-down" data-aos-delay="90">“ Along the Long Road and
+                        on down the Causeway, Do they still meet
+                        there by the Cut? There was a ragged band that followed in our footsteps. Running before times
+                        took our dreams away. Leaving the myriad small creatures trying to tie us to the ground. To a
+                        life consumed by slow decay.”
+                        <i class="fa-solid fa-caret-down fs-3 float-start"
+                            style="position: relative;top: 46.5px;color: #52d3aa;"></i>
+                    </p>
+                    <div>
+                        <img class="float-start" src="	https://themewagon.github.io/elate/images/person2.jpg" alt=""
+                            style="    width: 60px; border-radius: 50%;margin-left: 10px;">
+                        <div class="pt-3" style="line-height: 7px;">
+                            <p class="float-start ms-3">
+                                John, Senior UI <span><a href="#"
+                                        style="color: #52d3aa;text-decoration: none;">FREEHTML5.co</a></span></p>
+                            <span class="float-start ms-3" style="color: rgb(0 0 0 / 50%);">Creative Director</span>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12" id="top-wrap">
+                    <p class="row-wrapper-1 rounded" data-aos="fade-down" data-aos-delay="150">“ The grass was greener.
+                        The light was brighter. When friends
+                        surrounded. The nights of wonder. ”
+                        <i class="fa-solid fa-caret-down fs-3 float-start"
+                            style="position: relative;top: 46.5px;color: #52d3aa;"></i>
+                    </p>
+                    <div>
+                        <img class="float-start" src="	https://themewagon.github.io/elate/images/person3.jpg" alt=""
+                            style="    width: 60px; border-radius: 50%;margin-left: 10px;">
+                        <div class="pt-3" style="line-height: 7px;">
+                            <p class="float-start ms-3">
+
+                                Chris, Director <span><a href="#"
+                                        style="color: #52d3aa;text-decoration: none;">FREEHTML5.co</a></span></p>
+                            <span class="float-start ms-3" style="color: rgb(0 0 0 / 50%);">Creative Director</span>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="Parent-Wrapper-3"></div>
+        <div class="Child-Wrapper-3" id="section4">
+            <div class="container">
+                <h1 style="font-size: 50px;font-weight: 300;text-transform: uppercase;padding-top: 110px;color: #fff;"
+                    data-aos="fade-up">
+                    Services</h1>
+                <div class="mt-4" style="width: 90px;height:2px;background-color: #7bbbea;" data-aos="fade-up"
+                    data-aos-delay="90"></div>
+                <h3 class="mt-3 pt-2" style="color:#fff;font-size: 24px;font-weight: 300;" data-aos="fade-up"
+                    data-aos-delay="150">Encumbered forever by desire
+                    and ambition. There's a hunger still unsatisfied!</h3>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <i class="fa-solid fa-anchor text-light mt-5 pt-5" style="font-size: 60px;"
+                            data-aos="zoom-in"></i>
+                        <h4 class="text-light pt-4 mt-2"
+                            style="font-size: 24px;font-family: Arial, Helvetica, sans-serif;">Brand & Strategy</h4>
+                        <p class="pt-3" style="color: #bfe3ee;font-size: 18px;">Far far away, behind the word mountains,
+                            far from the countries Vokalia and Consonantia, there live the blind texts. Separated they
+                            live in Bookmarks right at the coast of the Semantics, a large language ocean</p>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <i class="fa-solid fa-layer-group text-light mt-5 pt-5" style="font-size: 60px;"
+                            data-aos="zoom-in"></i>
+                        <h4 class="text-light pt-4 mt-2"
+                            style="font-size: 24px;font-family: Arial, Helvetica, sans-serif;">Web & Interface</h4>
+                        <p class="pt-3" style="color: #bfe3ee;font-size: 18px;">Far far away, behind the word mountains,
+                            far from the countries Vokalia and Consonantia, there live the blind texts. Separated they
+                            live in Bookmarks right at the coast of the Semantics, a large language ocean</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <i class="fa-solid fa-video text-light mt-5 pt-5" style="font-size: 60px;"
+                            data-aos="zoom-in"></i>
+                        <h4 class="text-light pt-4 mt-2"
+                            style="font-size: 24px;font-family: Arial, Helvetica, sans-serif;">Photo & Video</h4>
+                        <p class="pt-3" style="color: #bfe3ee;font-size: 18px;">Far far away, behind the word mountains,
+                            far from the countries Vokalia and Consonantia, there live the blind texts. Separated they
+                            live in Bookmarks right at the coast of the Semantics, a large language ocean</p>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <i class="fa-solid fa-tv text-light mt-5 pt-5" style="font-size: 60px;" data-aos="zoom-in"></i>
+                        <h4 class="text-light pt-4 mt-2"
+                            style="font-size: 24px;font-family: Arial, Helvetica, sans-serif;">CMS & eCommerce</h4>
+                        <p class="pt-3" style="color: #bfe3ee;font-size: 18px;">Far far away, behind the word mountains,
+                            far from the countries Vokalia and Consonantia, there live the blind texts. Separated they
+                            live in Bookmarks right at the coast of the Semantics, a large language ocean</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="Parent-Wrapper-3"></div>
+    </div>
+
+    <div class="container text-center" id="section5">
+        <h1 class="fw-lighter mt-5 pt-5" style="text-transform: uppercase;" data-aos="fade-up">ABOUT</h1>
+        <div class="vertical-line mt-4" data-aos="fade-up" data-aos-delay="90"></div>
+        <h3 class="mt-3 pt-3" style="color:#929292;font-size: 24px;font-weight: 300;" data-aos="fade-up"
+            data-aos-delay="150">Our weary eyes still stray to the
+            horizon. Though down this road we've been so many times.</h3>
+        <div class="container">
+            <div class="row mt-5 pt-5">
+                <div class="col-lg-4 col-md-6 col-sm-12" data-aos="fade-up">
+                    <div class="column-box">
+                        <img src="	https://themewagon.github.io/elate/images/person1.jpg" alt="" width="100px"
+                            height="100px" style="border-radius: 60px;position: relative;bottom: 65px;">
+                        <h4 style="font-size: 24px;position: relative;bottom: 55px;">Jean Smith</h4>
+                        <p class="fw-lighter" style="color: #c2c2c2;font-size: larger;position: relative;bottom: 63px;">
+                            Web Designer</p>
+                        <p
+                            style="color:  #bbbbbb;font-size: 18px;font-family:Arial, Helvetica, sans-serif;position: relative;bottom: 55px;">
+                            Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                            there live the blind texts</p>
+                        <div class="d-flex justify-content-center" style="position: relative;bottom: 50px;">
+                            <div class="icon-fb">
+                                <i class="fa-brands fa-twitter"></i>
+                            </div>
+                            <div class="icon-fb ms-3">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </div>
+                            <div class="icon-fb ms-3">
+                                <i class="fa-brands fa-dribbble"></i>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12" id="top-wrap" data-aos="fade-up" data-aos-delay="120">
+                    <div class="column-box">
+                        <img src="	https://themewagon.github.io/elate/images/person2.jpg" alt="" width="100px"
+                            height="100px" style="border-radius: 60px;position: relative;bottom: 65px;">
+                        <h4 style="font-size: 24px;position: relative;bottom: 55px;">Rob Smith</h4>
+                        <p class="fw-lighter" style="color: #c2c2c2;font-size: larger;position: relative;bottom: 63px;">
+                            Web Developer</p>
+                        <p
+                            style="color:  #bbbbbb;font-size: 18px;font-family:Arial, Helvetica, sans-serif;position: relative;bottom: 55px;">
+                            Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                            there live the blind texts</p>
+                        <div class="d-flex justify-content-center" style="position: relative;bottom: 50px;">
+                            <div class="icon-fb">
+                                <i class="fa-brands fa-twitter"></i>
+                            </div>
+                            <div class="icon-fb ms-3">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </div>
+                            <div class="icon-fb ms-3">
+                                <i class="fa-brands fa-github"></i>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12" id="wrap-top" data-aos="fade-up" data-aos-delay="190">
+                    <div class="column-box" id="top-wrap">
+                        <img src="	https://themewagon.github.io/elate/images/person3.jpg" alt="" width="100px"
+                            height="100px" style="border-radius: 60px;position: relative;bottom: 65px;">
+                        <h4 style="font-size: 24px;position: relative;bottom: 55px;">Larry Ben</h4>
+                        <p class="fw-lighter" style="color: #c2c2c2;font-size: larger;position: relative;bottom: 63px;">
+                            Web Designer</p>
+                        <p
+                            style="color:  #bbbbbb;font-size: 18px;font-family:Arial, Helvetica, sans-serif;position: relative;bottom: 55px;">
+                            Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                            there live the blind texts</p>
+                        <div class="d-flex justify-content-center" style="position: relative;bottom: 50px;">
+                            <div class="icon-fb">
+                                <i class="fa-brands fa-twitter"></i>
+                            </div>
+                            <div class="icon-fb ms-3">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </div>
+                            <div class="icon-fb ms-3">
+                                <i class="fa-brands fa-dribbble"></i>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="Parent-Wrapper" style="margin-top: 90px;"></div>
+        <div class="gradiant-2 text-center pt-5" style="margin-top:110px ;">
+            <h1 class="fw-lighter text-light mt-5 pt-5" style="text-transform: uppercase;" data-aos="fade-up">Fun Facts
+            </h1>
+            <div class="vertical-line-2 mt-4" data-aos="fade-up" data-aos-delay="100"></div>
+            <div class="container">
+                <div class="row mt-5 pt-5">
+                    <div class="col-lg-3 col-md-6 col-sm-12" data-aos="fade-up">
+                        <i class="fa-solid fa-briefcase" style="color: #52d3aa;font-size: 40px;"></i>
+                        <p class="text-light fw-lighter" style="font-size: 57px;">89</p>
+                        <p style="    color: rgba(255, 255, 255, 0.5);
+                                font-size: 18px;
+                                font-weight: 400;position: relative;bottom: 10px;">Finished projects</p>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-12" data-aos="fade-up" data-aos-delay="100">
+                        <i class="fa-solid fa-code" style="color: #52d3aa;font-size: 40px;"></i>
+                        <p class="text-light fw-lighter" style="font-size: 57px;">2343409</p>
+                        <p style="    color: rgba(255, 255, 255, 0.5);
+                                font-size: 18px;
+                                font-weight: 400;position: relative;bottom: 10px;">Line of codes</p>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-12" data-aos="fade-up" data-aos-delay="200">
+                        <i class="fa-solid fa-mug-hot" style="color: #52d3aa;font-size: 40px;"></i>
+                        <p class="text-light fw-lighter" style="font-size: 57px;">1302</p>
+                        <p style="    color: rgba(255, 255, 255, 0.5);
+                                font-size: 18px;
+                                font-weight: 400;position: relative;bottom: 10px;">Cup of coffees</p>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-12" data-aos="fade-up" data-aos-delay="300">
+                        <i class="fa-solid fa-user-group" style="color: #52d3aa;font-size: 40px;"></i>
+                        <p class="text-light fw-lighter" style="font-size: 57px;">52</p>
+                        <p style="    color: rgba(255, 255, 255, 0.5);
+                                font-size: 18px;
+                                font-weight: 400;position: relative;bottom: 10px;">Happy clients</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    </div>
+
+
+
+    </div>
+    <div class="container-fluid">
+        <section class="row" style="margin-top: 110px;">
+            <div class="col-lg-12 col-md-12 col-sm-12">
+                <img src="	https://themewagon.github.io/elate/images/full_image_1.jpg" id="img" class="rounded" alt="">
+                <div class="Parent-Wrapper-4"></div>
+            </div>
+
+        </section>
+
+    </div>
+
+
+
+    <div class="container text-center">
+        <h1 class="fw-lighter " style="text-transform: uppercase;" data-aos="fade-up">Get In Touch</h1>
+        <div class="vertical-line mt-4" data-aos="fade-up" data-aos-delay="90"></div>
+        <h3 class="mt-3 pt-3" style="color:#929292;font-size: 24px;font-weight: 300;" data-aos="fade-up"
+            data-aos-delay="150">Hello? Hello? Hello? Is there
+            anybody in there? Just nod if you can hear me. Is there anyone at home?</h3>
+    </div>
+
+
+    <div class="" id="section6">
+        <div class="row ms-5 mt-5 pt-5">
+            <div class="col-lg-6 col-md-12 col-sm-12">
+                <h4 data-aos="fade-up">Contact Info</h4>
+                <div class="d-flex mt-4 pt-2" data-aos="fade-up" data-aos-delay="100">
+                    <i class="fa-solid fa-house text-secondary fs-5"></i>
+                    <h3 class="ms-4" style="color:#929292;font-size: 18px;font-weight: 300;">5555 Love Paradise 56 New
+                        Clity 5655,<br>
+                        Excel Tower United Kingdom</h3>
+                </div>
+                <div class="d-flex mt-4 pt-2" data-aos="fade-up" data-aos-delay="150">
+                    <i class="fa-solid fa-phone text-secondary fs-5"></i>
+                    <h3 class="ms-4" style="color:#929292;font-size: 18px;font-weight: 300;">(123) 465-6789</h3>
+                </div>
+                <div class="d-flex mt-4 pt-2" data-aos="fade-up" data-aos-delay="150">
+                    <i class="fa-regular fa-envelope text-secondary fs-5"></i>
+                    <h3 class="ms-4" style="color:#929292;font-size: 18px;font-weight: 300;">info@yourmail.co</h3>
+                </div>
+                <div class="d-flex mt-4 pt-2" data-aos="fade-up" data-aos-delay="150">
+                    <i class="fa-solid fa-globe text-secondary fs-5"></i>
+                    <h3 class="ms-4" style="color:#52d3aa;font-size: 18px;font-weight: 300;">freehtml5.co</h3>
+                </div>
+            </div>
+
+            <div class="col-lg-6 col-md-12 col-sm-12" id="nth-child-top">
+                <div class="container">
+                    <form action="">
+                        <h4 data-aos="fade-up">Contact Info</h4>
+                        <input type="text" value="Name" class="form-control-lg mt-3"
+                            style="width: 90%;border: 2px solid #bbbbbb;color: #bbbbbb;" data-aos="fade-up"
+                            data-aos-delay="90">
+                        <input type="text" value="Email" class="form-control-lg mt-4"
+                            style="width: 90%;border: 2px solid #bbbbbb;color: #bbbbbb;" data-aos="fade-up"
+                            data-aos-delay="100">
+                        <input type="text" value="Phone" class="form-control-lg mt-4"
+                            style="width: 90%;border: 2px solid #bbbbbb;color: #bbbbbb;" data-aos="fade-up"
+                            data-aos-delay="150">
+                        <textarea name="" class="form-control mt-4" id=""
+                            style="width:90% ;height: 150px;border: 2px solid #bbbbbb;color: #bbbbbb;"
+                            data-aos="fade-up" data-aos-delay="200">Message</textarea>
+                        <button type="" class="btn text-light mt-3"
+                            style="background-color: #52d3aa;font-size: 16px;letter-spacing: 2px;padding: 12px;text-transform: uppercase;"
+                            data-aos="fade-up" data-aos-delay="250">Send
+                            Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container text-center mt-5 pt-5">
+        <p id="scale-up" style="color: #52d3aa; font-size: x-large;" data-aos="fade-up"><a href="#"
+                style="color: #52d3aa;text-decoration: none;">TO <i class="fa-solid fa-arrow-up fs-3"
+                    style="color: #52d3aa;"></i> Top</a></p>
+        <h3 class="mt-3 pt-3" style="color:#929292;font-size: 20px;font-weight: 300;" data-aos="fade-up"
+            data-aos-delay="100">© Elate Free HTML5. All Rights
+            Reserved.</h3>
+        <h3 class="mt-3 pt-3" style="color:#929292;font-size: 20px;font-weight: 300;position: relative;bottom: 20px;"
+            data-aos="fade-up" data-aos-delay="200">
+            Created by <span style="color: #52d3aa;">FREEHTML5.co </span>Images:<span style="color: #52d3aa;"> Pexels,
+                plmd.me</span></h3>
+        <div class="d-flex justify-content-center mt-5" style="position: relative;bottom: 50px;" data-aos="fade-up"
+            data-aos-delay="150">
+            <div class="icon-fb">
+                <i class="fa-brands fa-twitter"></i>
+            </div>
+            <div class="icon-fb ms-3">
+                <i class="fa-brands fa-facebook-f"></i>
+            </div>
+            <div class="icon-fb ms-3">
+                <i class="fa-brands fa-dribbble"></i>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
