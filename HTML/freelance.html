@@ -1,0 +1,1031 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap template</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="bootstrap.css">
+
+</head>
+
+<body>
+    <!-- When screen is scroll items are fade up -->
+    <script>
+        AOS.init({
+            easing: 'ease-out',
+            once: true,
+            duration: 700,
+        });
+    </script>
+
+
+
+    <!-- Offcanvas Button-->
+    <div class="content-2 d-flex float-end me-4 mt-4 d-lg-none position-relative">
+        <i class="fa fa-bars fs-4" data-bs-target="#offcanvasNavbarExample-expand-lg" data-bs-toggle="offcanvas"></i>
+    </div>
+    <!-- Offcanvas code Sidebar -->
+    <div class="offcanvas offcanvas-start overflow-hidden" style="background-color: black;" data-bs-hideresize="true"
+        tabindex="-1" aria-labelledby="offcanvasNavbarExample-expand-lgLabel" id="offcanvasNavbarExample-expand-lg">
+        <div class="offcanvas-header text-center">
+            <div class="offcanvas-title">
+
+                <div>
+                    <img src="https://bootstrapmade.com/content/demo/iPortfolio/assets/img/my-profile-img.jpg"
+                        class="rl">
+                </div>
+                <div class="text-center mt-4">
+                    <span class="text-light text-center fw-bolder ps-5" id="ll">Alex Smith</span>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="offcanvas-body">
+            <div>
+                <i class="fa-brands fa-x-twitter" id="hx" style=" margin-left: px;"></i>
+                <i class="fa-brands fa-facebook" id="hx"></i>
+                <i class="fa-brands fa-instagram  " id="hx"></i>
+                <i class="fa-brands fa-skype  " id="hx"></i>
+                <i class="fa-brands fa-linkedin " id="hx"></i>
+            </div>
+            <div class="container text-light my-4 mx-2" style="line-height: 40px;">
+                <p class="d-flex align-items-center d-block"><i class="fa-solid fa-house px-1"
+                        style="color:  #009bd9;"></i><a class="d-block text-light mx-2" href="">Home</a></p>
+                <p class="d-flex align-items-center"><i class="fa-regular fa-user px-1"></i><a class="d-block mx-2"
+                        href="">About</a></p>
+                <p class="d-flex align-items-center"><i class="fa-regular fa-file-lines px-1"></i><a
+                        class="d-block mx-2" href="">Resume</a></p>
+                <p class="d-flex align-items-center"><i class="fa-regular fa-images px-1"></i><a class="d-block mx-2"
+                        href="">Portfolio</a></p>
+                <p class="d-flex align-items-center"><i class="fa-solid fa-server px-1"></i> <a class="d-block mx-2"
+                        href="">Services</a></p>
+                <p class="d-flex align-items-center"><i class="fa-solid fa-list px-1"></i> <a class="d-block mx-2"
+                        href="">Dropdown</a><i class="fa fa-angle-down"
+                        style="position: relative; left: 112px;padding: 5px;border-radius: 25px;background-color:#061b28;color: #556c77;">
+
+                    </i>
+
+                </p>
+                <p class="d-flex align-items-center"><i class="fa-solid fa-envelope px-1"></i><a class="d-block mx-2"
+                        href="">Contact</a></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main section -->
+    <div class="container-fluid">
+        <div class="row default">
+            <!-- Position fixed section on left side -->
+            <div class="col-lg-3 position-fixed  default overflow-y-scroll " id="first-section">
+                <div style="background-color: #040b14;">
+                    <div class="text-center">
+                        <img src="https://bootstrapmade.com/content/demo/iPortfolio/assets/img/my-profile-img.jpg"
+                            class="re">
+                    </div>
+                    <div class="text-center mt-4">
+                        <span class="text-light text-center fw-bolder " id="al">Alex Smith</span>
+                    </div>
+                    <div class="ms-2 mt-3">
+                        <i class="fa-brands fa-x-twitter hy " style=" margin-left: 12px;"></i>
+                        <i class="fa-brands fa-facebook hy "></i>
+                        <i class="fa-brands fa-instagram hy "></i>
+                        <i class="fa-brands fa-skype hy "></i>
+                        <i class="fa-brands fa-linkedin hy"></i>
+                    </div>
+                    <div class="container text-light my-4 mx-2" style="line-height: 40px;">
+                        <p class="d-flex align-items-center d-block"><i class="fa-solid fa-house px-1"
+                                style="color:  #009bd9;"></i><a class="d-block text-light mx-2" href="">Home</a></p>
+                        <p class="d-flex align-items-center"><i class="fa-regular fa-user px-1"></i><a
+                                class="d-block mx-2" href="">About</a></p>
+                        <p class="d-flex align-items-center"><i class="fa-regular fa-file-lines px-1"></i><a
+                                class="d-block mx-2" href="">Resume</a></p>
+                        <p class="d-flex align-items-center"><i class="fa-regular fa-images px-1"></i><a
+                                class="d-block mx-2" href="">Portfolio</a></p>
+                        <p class="d-flex align-items-center"><i class="fa-solid fa-server px-1"></i> <a
+                                class="d-block mx-2" href="">Services</a></p>
+                        <i class="fa fa-angle-down"
+                            style="position: relative; left: 225px;padding: 5px;border-radius: 25px;background-color:#061a29;color: #556c77;"
+                            data-bs-toggle="dropdown"></i>
+
+                        <i class="fa-solid fa-list px-1 fs-5"
+                            style="position: relative;right: 28px;color: #808080;"></i>
+                        <span class="pe-5" style="position: relative;right: 25px;bottom: 2px;  color: rgb(162 169 178);"
+                            id="menu">Dropdown</span>
+                        <!-- Dropdown code -->
+                        <ul class="dropdown-menu dropdown-menu-end"
+                            style="background-color: #050c14;border: 1px solid #1f262c;">
+                            <li><a class="dropdown-item " href="#" style="  color: rgb(162 169 178);" id="menu">Dropdown
+                                    1</a></li>
+                            <li><a class="dropdown-item " href="#" style="  color: rgb(162 169 178);"
+                                    data-bs-toggle="dropdown" id="menu">Dropdown Deep</a></li>
+
+                            <li><a class="dropdown-item " href="#" style="  color: rgb(162 169 178);" id="menu">Dropdown
+                                    2</a></li>
+                            <li><a class="dropdown-item " href="#" style="  color: rgb(162 169 178);" id="menu">Dropdown
+                                    3</a></li>
+                            <li><a class="dropdown-item " href="#" style="  color: rgb(162 169 178);" id="menu">Dropdown
+                                    4</a></li>
+                        </ul>
+
+
+                        <p class="d-flex align-items-center"><i class="fa-solid fa-envelope px-1"></i><a
+                                class="d-block mx-2" href="">Contact</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- Second section that is on right side and contain more items than first section. -->
+        <section class="col-lg-9 default" id="section-second">
+            <div class="container-fluid imge default">
+                <div data-aos="fade-up">
+                    <div class="d-flex align-items-center">
+                        <h1 class="hero mx-3">Alex</h1><span class="hero">Smith</span>
+                    </div>
+                    <div class=" text-light fs-3 mx-3" style="position: relative;top: 190px;">I'm <span
+                            style="border-bottom: 2px solid #149ddd;padding: 2px;">Develpor</span></div>
+                </div>
+            </div>
+
+            <!-- Introduction of Alex Smith -->
+            <div data-aos="fade-up" data-aos-delay="100">
+                <div class="container-fluid mt-5 pt-2 ps-4">
+                    <h2>About</h2>
+                </div>
+                <div class="container-fluid">
+                    <div class="mt-3" style="width: 50px;height: 3.5px;background-color: #149ddd;margin-left: 12px;">
+                    </div>
+
+
+                    <div>
+                        <p class="pt-3 ps-2" style="color:#272829;">Magnam dolores commodi suscipit. Necessitatibus
+                            eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos
+                            quisquam
+                            cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in officiis commodi
+                            quidem hic
+                            quas.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid mt-4" data-aos="fade-up" data-aos-delay="200">
+                <div id="f-l">
+                    <div>
+
+
+                        <div class="container-fluid">
+                            <img id="i-s" class="mt-4 pt-2"
+                                src="https://bootstrapmade.com/content/demo/iPortfolio/assets/img/my-profile-img.jpg">
+                        </div>
+
+                    </div>
+                    <div id="m-l" class="col-lg-8 col-md-12 col-sm-12">
+                        <div style="display: flex; flex-direction: column;">
+                            <div class=" d-flex">
+                                <h2 class="ms-3"
+                                    style="color: #050d18;font-size: x-large;font-weight: bold;font-family: Arial, Helvetica, sans-serif;">
+                                    UI/UX Designer & Web Developer.</h2>
+                            </div>
+
+                            <div class="ms-3" style="font-style: italic;">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                    tempor. incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+                            <div class="row" style="position: relative;right: 17px;">
+                                <div class="col-lg-6" style=" line-height: 32px;">
+                                    <ul style="list-style-type: none;">
+                                        <li class="my-2"><i class="fa-solid fa-angle-right"></i>
+                                            <strong style="color: #2d2851;">
+                                                Birthday:</strong>
+                                            <span style="color: #2d2851;">1 May 1995</span>
+                                        </li>
+                                        <li class="my-2 d-flex align-items-center"><i
+                                                class="fa-solid fa-angle-right"></i>
+                                            <strong class="ms-1" style="color: #2d2851;">
+                                                Website:</strong>
+                                            <span class="ps-1" style="color: #2d2851;">www.com</span>
+                                        </li>
+                                        <li class="my-2"><i class="fa-solid fa-angle-right"></i>
+                                            <strong style="color: #2d2851;">
+                                                Phone:</strong>
+                                            <span style="color: #2d2851;">+123 456 7890</span>
+                                        </li>
+                                        <li class="my-2"><i class="fa-solid fa-angle-right"></i>
+                                            <strong style="color: #2d2851;">
+
+                                                City:</strong>
+                                            <span style="color: #2d2851;">New York, USA</span>
+                                        </li>
+                                    </ul>
+                                </div>
+
+
+
+
+                                <div id="tp" class="col-lg-6" style="line-height: 32px;">
+                                    <ul style="list-style-type: none;">
+                                        <li class="my-2"><i class="fa-solid fa-angle-right" style="color: #009bd9;"></i>
+                                            <strong style="color: #2d2851;">
+                                                Age:</strong>
+                                            <span style="color: #2d2851;">30</span>
+                                        </li>
+                                        <li class="my-2"><i class="fa-solid fa-angle-right" style="color: #009bd9;"></i>
+                                            <strong style="color: #2d2851;">
+
+                                                Degree:</strong>
+                                            <span style="color: #2d2851;">Master</span>
+                                        </li>
+                                        <li class="my-2 d-flex align-items-center"><i class="fa-solid fa-angle-right"
+                                                style="color: #009bd9;"></i>
+                                            <strong class="ms-1" style="color: #2d2851;">
+                                                Email:</strong>
+                                            <span class="ps-1" style="color: #2d2851;">yes@example.com</span>
+                                        </li>
+                                        <li class="my-2 d-flex align-items-center"><i class="fa-solid fa-angle-right"
+                                                style="color: #009bd9;"></i>
+                                            <strong class="ms-1" style="color: #2d2851;">
+
+                                                Freelance:</strong>
+                                            <span style="color: #2d2851;">Available</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <p id="tp" class="ps-3 pt-3" style="color: #2d2829;">Officiis eligendi itaque labore et
+                                dolorum mollitia
+                                officiis
+                                optio vero. Quisquam sunt adipisci omnis et ut. Nulla accusantium dolor incidunt officia
+                                tempore. Et
+                                eius omnis. Cupiditate ut dicta maxime officiis quidem quia. Sed et consectetur qui quia
+                                repellendus
+                                itaque neque.</p>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- The performance of company -->
+                <div class="row counter-body d-flex justify-content-evenly align-items-center ps-4 pt-5
+                
+                mt-5" style="padding: 20px 0 30px 0;" data-aos="fade-up">
+
+                    <div id="m-t" class="col-lg-3 col-md-6 col-sm-12 m-b">
+                        <div style="padding: 30px;">
+                            <div class="d-flex align-items-center">
+
+                                <i id="m-m" class="fa-regular fa-face-smile m-b me-3"
+                                    style="color: #009bd9;font-size: 45px;"></i>
+                                <h1 id="d-d" class="me-4 pe-5" style="font-size: 48px;font-weight: 700;">232</h1>
+                            </div>
+                            <strong id="pp" style="color: #7e7f7f;font-size: 14px;">Happy Clients</strong>
+                            <span style="color: #7e7f7f;font-size: 14px;font-weight: 400;">consequuntur quae</span>
+                        </div>
+                    </div>
+                    <div id="m-t" class="col-lg-3 col-md-6 col-sm-12">
+                        <div>
+                            <div class="d-flex align-items-center">
+
+                                <i id="m-m" class="fa-regular fa-file-lines me-4"
+                                    style="color: #009bd9;font-size: 45px;"></i>
+                                <h1 id="d-d" class="pe-4" style="font-size: 48px;font-weight: 700;">521</h1>
+                            </div>
+
+                            <strong id="pp" style="color: #7e7f7f;font-size: 14px;">Happy Clients</strong>
+                            <span style="color: #7e7f7f;font-size: 14px;">consequuntur quae</span>
+                        </div>
+                    </div>
+                    <div id="m-t" class="col-lg-3 col-md-6 col-sm-12">
+                        <div style="padding: 30px;">
+                            <div class="d-flex align-items-center">
+
+                                <i id="m-m" class="fa-solid fa-headset me-4"
+                                    style="color: #009bd9;font-size: 45px;"></i>
+                                <h1 id="d-d" class="pe-5" style="font-size: 48px;font-weight: 700;">1453</h1>
+                            </div>
+
+                            <strong id="pp" style="color: #7e7f7f;font-size: 14px;">Hours Of support</strong>
+                            <span id="pa" style="color: #7e7f7f;font-size: 14px;">aut commodi quaerat</span>
+                        </div>
+                    </div>
+                    <div id="m-t" class="col-lg-3 col-md-6 col-sm-12">
+                        <div style="padding: 30px;">
+                            <div class="d-flex align-items-center">
+                                <i id="m-m" class="fa-solid fa-user-group me-4"
+                                    style="color: #009bd9;font-size: 45px;"></i>
+                                <h1 id="d-d" class="me-5 pe-5" style="font-size: 48px;font-weight: 700;">32</h1>
+                            </div>
+                            <strong id="pp" style="color: #7e7f7f;font-size: 14px;">Hard Workers</strong>
+                            <span style="color: #7e7f7f;font-size: 14px;">rerum asperiores dolor</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Skills of programmers -->
+
+                <div class="w-100 mt-5" id="box-a">
+                    <div data-aos="fade-up" data-aos-delay="100">
+                        <h2 class=" ps-3"
+                            style=" font-family: Arial, Helvetica, sans-serif;font-weight: 700;font-size: 32px;">
+                            Skills</h2>
+                        <div class="mt-3 ms-3" style="width: 50px;height: 3.5px;background-color: #149ddd;"></div>
+                        <p class="pt-4 ps-3">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
+                            consectetur velit</p>
+                    </div>
+                    <div class="container-fluid">
+                        <div class="row" data-aos="fade-up" data-aos-delay="200">
+
+
+                            <div class=" col-lg-6 col-md-12 col-sm-12">
+
+                                <span class="skill d-flex justify-content-between" style="font-size: small;"><span
+                                        class="d-flex align-item-center">HTML</span><i class="val">100%</i></span>
+                                <div class="progress" style="width:100%px;height: 10px;">
+                                    <div class="progress-bar" data-aos="slide-right"
+                                        style="background-color: #149ddd;width: 100%;">
+                                    </div>
+                                </div>
+                                <div class="mt-4">
+                                    <span class="skill d-flex justify-content-between" style="font-size: small;"><span
+                                            class="d-flex align-item-center">CSS</span><i class="val">90%</i></span>
+                                    <div class="progress " style="width:100%;height: 10px;">
+                                        <div class="progress-bar" data-aos="slide-right"
+                                            style="background-color: #149ddd;width: 90%;"></div>
+                                    </div>
+                                </div>
+                                <div class="mt-4">
+                                    <span class="skill d-flex justify-content-between" style="font-size: small;"><span
+                                            class="d-flex align-item-center"
+                                            style="text-transform: uppercase;">JavaScript</span><i
+                                            class="val">75%</i></span>
+                                    <div class="progress" style="width:100%;height: 10px;">
+                                        <div class="progress-bar" data-aos="slide-right"
+                                            style="background-color: #149ddd;width: 75%;"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="col-lg-6 col-md-12 col-sm-12" id="box-b">
+
+                                <span class="skill d-flex justify-content-between" style="font-size: small;"><span
+                                        class="d-flex align-item-center">PHP</span><i class="val">80%</i></span>
+                                <div class="progress" style="width:100%;height: 10px;">
+                                    <div class="progress-bar" data-aos="slide-right"
+                                        style="background-color: #149ddd;width: 80%;">
+                                    </div>
+                                </div>
+                                <div class="mt-4">
+                                    <span class="skill d-flex justify-content-between" style="font-size: small;"><span
+                                            class="d-flex align-item-center">WordPress/CMS</span><i
+                                            class="val">90%</i></span>
+                                    <div class="progress " style="width:100%;height: 10px;">
+                                        <div class="progress-bar" data-aos="slide-right"
+                                            style="background-color: #149ddd;width: 90%;"></div>
+                                    </div>
+                                </div>
+                                <div class="mt-4">
+                                    <span class="skill d-flex justify-content-between" style="font-size: small;"><span
+                                            class="d-flex align-item-center">PHOTOSHOP</span><i
+                                            class="val">55%</i></span>
+                                    <div class="progress" style="width:100%;height: 10px;">
+                                        <div class="progress-bar" data-aos="slide-right"
+                                            style="background-color: #149ddd;width: 55%;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+            <div class="container-fluid  mt-5">
+                <div style="padding: 5px;">
+                    <div data-aos="fade-up">
+                        <h2>Resume</h2>
+                        <div class="mt-3" style="width: 50px;height: 3.5px;background-color: #149ddd;"></div>
+                        <p class="mt-3">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga
+                            eum quidem.
+                            Sit
+                            sint
+                            consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
+                            Quia
+                            fugiat sit in iste officiis commodi quidem hic quas.</p>
+                    </div>
+                    <!-- The best senior programmers -->
+                    <div class="row">
+                        <div class="col-lg-5 col-md-12 col-sm-12 ms-3 ">
+                            <div data-aos="fade-up" data-aos-delay="100">
+                                <h2 class="pt-5" style="position: relative;right: 15px;">Sumary</h2>
+
+                                <h4 id="af" class="mt-4"
+                                    style="font-size: 18px;  text-transform: capitalize;color: #565757;position: relative;right: 12px;">
+                                    BRANDOM JOHNSON</h4>
+                                <div class="d-flex justify-content-between">
+                                    <div id="li"></div>
+                                    <div>
+                                        <p class="fst-italic ps-2">Innovative and deadline-driven Graphic Designer with
+                                            3+
+                                            years
+                                            of
+                                            experience designing and developing user-centered digital/print marketing
+                                            material
+                                            from initial concept to final, polished deliverable.</p>
+                                        <ul class="lh-2">
+                                            <li>Portland par 127,Orlando, FL</li>
+                                            <li>(123) 456-7891</li>
+                                            <li>alice.barkley@example.com</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h2 style="position: relative;right: 12px;">Education</h2>
+
+                                    <h4 id="af2" class="mt-4"
+                                        style="font-size: 18px;  text-transform: capitalize;color: #565757;">Master of
+                                        Fine
+                                        Arts
+                                        & Graphic Design</h4>
+                                    <div class="d-flex">
+                                        <div id="li"></div>
+                                        <div>
+                                            <h4 class="ps-5" style="font-size: 16px;
+                            padding: 5px 15px;
+                            display: inline-block;
+                            font-weight: 600;
+                            margin-bottom: 10px;">2015 - 2016</h4>
+                                            <p class="fst-italic ps-2">Rochester Institute of Technology, Rochester, NY
+                                            </p>
+                                            <p class="ps-1">Quia nobis sequi est occaecati aut. Repudiandae et iusto
+                                                quae reiciendis
+                                                et
+                                                quis
+                                                Eius vel ratione eius unde vitae rerum voluptates asperiores voluptatem
+                                                Earum
+                                                molestiae consequatur neque etlon sader mart dila</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div style="position: relative;bottom: 15px;">
+
+                                    <h4 id="af3" style="font-size: 18px;  text-transform: capitalize;color: #565757;">
+                                        Bachelor
+                                        of Fine Arts & Graphic Design</h4>
+                                    <div class="d-flex">
+                                        <div id="li2"></div>
+                                        <div>
+                                            <h4 class="ps-5" style="font-size: 16px;
+                            padding: 5px 15px;
+                            display: inline-block;
+                            font-weight: 600;
+                            margin-bottom: 10px;">2010 - 2014</h4>
+                                            <p class="fst-italic ps-3">Rochester Institute of Technology, Rochester, NY
+                                            </p>
+                                            <p class="ps-2">Quia nobis sequi est occaecati aut. Repudiandae et iusto
+                                                quae reiciendis
+                                                et
+                                                quis
+                                                Eius vel ratione eius unde vitae rerum voluptates asperiores voluptatem
+                                                Earum
+                                                molestiae consequatur neque etlon sader mart dila</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+
+                        </div>
+                        <div id="mr" class="col-lg-6 col-md-12 col-sm-12 ">
+                            <div data-aos="fade-up" data-aos-delay="200">
+                                <h2 class="pt-5">Professional Experience</h2>
+                                <h4 id="af2" class="mt-4"
+                                    style="font-size: 18px;  text-transform: capitalize;color: #565757;">
+                                    Senior graphic design specialist</h4>
+                                <div class="d-flex">
+                                    <div id="li4"></div>
+                                    <div>
+                                        <h4 class="ms-4" style="font-size: 16px;
+                        padding: 5px 15px;
+                        display: inline-block;
+                        font-weight: 600;
+                        margin-bottom: 10px;">2010 - 2014</h4>
+                                        <p class="fst-italic ps-4">Experion, New York, NY</p>
+                                        <ul>
+                                            <li class="mt-2">Lead in the design, development, and implementation of the
+                                                graphic,
+                                                layout, and production communication materials</li>
+                                            <li class="mt-2">Delegate tasks to the 7 members of the design team and
+                                                provide
+                                                counsel on all aspects of the project.</li>
+                                            <li class="mt-2">Supervise the assessment of all graphic materials in order
+                                                to
+                                                ensure quality and accuracy of the design</li>
+                                            <li class="mt-2">Oversee the efficient use of production project budgets
+                                                ranging
+                                                from $2,000 - $25,000</li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div id="po-b">
+
+
+                                    <h4 id="af2" class="mt-4"
+                                        style="font-size: 18px;  text-transform: capitalize;color: #565757;">Graphic
+                                        design
+                                        specialist</h4>
+                                    <div class="d-flex">
+                                        <div id="li4"></div>
+                                        <div>
+                                            <h4 class="ps-5" style="font-size: 16px;
+    padding: 5px 15px;
+    display: inline-block;
+    font-weight: 600;
+    margin-bottom: 10px;">2017 - 2018</h4>
+                                            <p class="fst-italic ps-3">Stepping Stone Advertising, New York, NY</p>
+                                            <ul>
+                                                <li class="mt-2">Lead in the design, development, and implementation of
+                                                    the
+                                                    graphic, layout, and production communication materials</li>
+                                                <li class="mt-2">Delegate tasks to the 7 members of the design team and
+                                                    provide
+                                                    counsel on all aspects of the project.</li>
+                                                <liv>Recommended and consulted with clients on the most appropriate
+                                                    graphic
+                                                    design</li>
+                                                    <li class="mt-2">Created 4+ design presentations and proposals a
+                                                        month
+                                                        for
+                                                        clients and account managers</li>
+                                        </div>
+                                        </ul>
+                                    </div>
+
+
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- All items of company. -->
+                    <div>
+                        <div class="box1">
+                            <div data-aos="fade-up">
+                                <h2 class="pt-5 ps-2">Portfolio</h2>
+                                <div id="line2" class="mt-3 ms-2"
+                                    style="width: 50px;height: 3.5px;background-color: #149ddd;">
+                                </div>
+                                <p class="mt-3 ps-2">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex
+                                    aliquid
+                                    fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et
+                                    nemo
+                                    qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic
+                                    quas.
+                                </p>
+                            </div>
+                            <div data-aos="fade-up" data-aos-delay="100">
+                                <ul class="d-flex justify-content-center grid gap-4 pt-2"
+                                    style="list-style-type: none;">
+                                    <li id="ha">All</li>
+                                    <li id="ha">App</li>
+                                    <li id="ha">Product</li>
+                                    <li id="ha">Branding</li>
+                                    <li id="ha">Books</li>
+                                </ul>
+                            </div>
+                            <div class="row" data-aos="fade-up" data-aos-delay="200">
+                                <div class="col-lg-4 col-md-6 col-sm-12">
+                                    <img src="https://bootstrapmade.com/content/demo/iPortfolio/assets/img/portfolio/app-1.jpg"
+                                        id="i-8">
+                                    <div class="content">
+                                        <div style="display: flex;flex-direction: column;">
+                                            <h5 style="font-size: 14px;
+                padding: 5px 10px;
+                width: 60px;
+                font-weight: 400;
+                color: #ffffff;
+                display: inline-block;
+                position: relative;
+                bottom: 37px;
+                left: 12px;
+                background-color: #009bd9;">App 1</h5>
+                                            <div class="mx-5 px-4" style="position: relative;left: 30px;">
+                                                <i class="fa-solid fa-magnifying-glass-plus mx-2 fs-4"></i>
+                                                <i class="fa-solid fa-link fs-4"></i>
+                                            </div>
+                                        </div>
+                                        <p
+                                            style="position: relative;top: 55px;left: 2px; color: rgba(255, 255, 255, 0.8);font-weight: 600;font-size: 15.1px;">
+                                            Lorem ipsum, dolor sit amet consectetur</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-12">
+                                    <img src="https://bootstrapmade.com/content/demo/iPortfolio/assets/img/portfolio/product-2.jpg"
+                                        id="i-9">
+                                    <div class="content">
+                                        <div style="display: flex;flex-direction: column;">
+                                            <h5 style="font-size: 14px;
+                padding: 5px 10px;
+                width: 83px;
+                font-weight: 400;
+                color: #ffffff;
+                display: inline-block;
+                position: relative;
+                bottom: 37px;
+                left: 12px;
+                background-color: #009bd9;">Product 2</h5>
+                                            <div class="mx-5 px-4" style="position: relative;left: 30px;">
+                                                <i class="fa-solid fa-magnifying-glass-plus mx-2 fs-4"></i>
+                                                <i class="fa-solid fa-link fs-4"></i>
+                                            </div>
+                                        </div>
+                                        <p
+                                            style="position: relative;top: 55px;left: 2px; color: rgba(255, 255, 255, 0.8);font-weight: 600;font-size: 15.1px;">
+                                            Lorem ipsum, dolor sit amet consectetur</p>
+                                    </div>
+                                </div>
+                                <div id="i-1" class="col-lg-4 col-md-12 col-sm-12">
+                                    <img src="https://bootstrapmade.com/content/demo/iPortfolio/assets/img/portfolio/product-3.jpg"
+                                        id="i-10">
+                                    <div class="content">
+                                        <div style="display: flex;flex-direction: column;">
+                                            <h5 style="font-size: 14px;
+                padding: 5px 10px;
+                width: 83px;
+                font-weight: 400;
+                color: #ffffff;
+                display: inline-block;
+                position: relative;
+                bottom: 37px;
+                left: 12px;
+                background-color: #009bd9;">Product 3</h5>
+                                            <div class="mx-5 px-4" style="position: relative;left: 30px;">
+                                                <i class="fa-solid fa-magnifying-glass-plus mx-2 fs-4"></i>
+                                                <i class="fa-solid fa-link fs-4"></i>
+                                            </div>
+                                        </div>
+                                        <p
+                                            style="position: relative;top: 55px;left: 2px; color: rgba(255, 255, 255, 0.8);font-weight: 600;font-size: 15.1px;">
+                                            Lorem ipsum, dolor sit amet consectetur</p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+
+                    <!-- The company provided some services. -->
+                    <div class="container-fluid">
+                        <div>
+                            <div data-aos="fade-up">
+                                <h2 class="pt-5 mt-2">Services</h2>
+                                <div class="mt-3" style="width: 50px;height: 3.5px;background-color: #149ddd;"></div>
+                                <p class="pt-3">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex
+                                    aliquid
+                                    fuga
+                                    eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo
+                                    qui
+                                    impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.
+                                </p>
+                            </div>
+
+
+                            <div class="row pt-4">
+
+                                <div class="col-lg-4 col-md-6 col-sm-12" style="cursor: pointer;" data-aos="fade-up"
+                                    data-aos-delay="50">
+                                    <div class="d-flex grid gap-4">
+                                        <div>
+                                            <i class="fa-regular fa-envelope" id="image1"></i>
+                                        </div>
+                                        <div>
+                                            <h5 class="d-inline-block fw-bold " id="image2">Lorem Ipsum</h5>
+                                            <p class="pt-2">Voluptatum deleniti atque corrupti quos dolores et quas
+                                                molestias excepturi sint occaecati cupiditate non provident</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="col-lg-4 col-md-6 col-sm-12" data-aos="fade-up" data-aos-delay="100">
+                                    <div class="d-flex grid gap-4">
+                                        <div>
+                                            <i class="fa-regular fa-rectangle-list" id="image1"></i>
+                                        </div>
+                                        <div>
+                                            <h5 class="d-inline-block fw-bold " id="image2">Dolor Sitema</h5>
+                                            <p class="pt-2">Voluptatum deleniti atque corrupti quos dolores et quas
+                                                molestias excepturi sint occaecati cupiditate non provident</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-12" data-aos="fade-up" data-aos-delay="150">
+                                    <div class="d-flex grid gap-4">
+                                        <div>
+                                            <i class="fa-solid fa-binoculars" id="image1"></i>
+                                        </div>
+                                        <div>
+                                            <h5 class="d-inline-block fw-bold " id="image2">Sed us perspiciatic</h5>
+                                            <p class="pt-2">Voluptatum deleniti atque corrupti quos dolores et quas
+                                                molestias excepturi sint occaecati cupiditate non provident</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 col-md-6 col-sm-12 pt-4" data-aos="fade-up" data-aos-delay="100">
+                                    <div class="d-flex grid gap-4">
+                                        <div>
+                                            <i class="fa-regular fa-sun" id="image1"></i>
+                                        </div>
+                                        <div>
+                                            <h5 class="d-inline-block fw-bold " id="image2">Magni Dolores</h5>
+                                            <p class="pt-2">Voluptatum deleniti atque corrupti quos dolores et quas
+                                                molestias excepturi sint occaecati cupiditate non provident</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-12 pt-4" data-aos="fade-up" data-aos-delay="150">
+                                    <div class="d-flex grid gap-4">
+                                        <div>
+                                            <i class="fa-regular fa-calendar-check" id="image1"></i>
+                                        </div>
+                                        <div>
+                                            <h5 class="d-inline-block fw-bold " id="image2">Nemo Enim</h5>
+                                            <p class="pt-2">Voluptatum deleniti atque corrupti quos dolores et quas
+                                                molestias excepturi sint occaecati cupiditate non provident</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-12 pt-4" data-aos="fade-up" data-aos-delay="200">
+                                    <div class="d-flex grid gap-4">
+                                        <div>
+                                            <i class="fa-solid fa-chart-simple" id="image1"></i>
+                                        </div>
+                                        <div>
+                                            <h5 class="d-inline-block fw-bold " id="image2">Eiusmod Tempor</h5>
+                                            <p class="pt-2">Voluptatum deleniti atque corrupti quos dolores et quas
+                                                molestias excepturi sint occaecati cupiditate non provident</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!-- Ranking developer in company. -->
+                        <div class="container-fluid mt-5 box3">
+                            <div data-aos="fade-up">
+                                <h2 class="pt-5" style="font-size: 32px;
+    font-weight: 500;">Testimonial</h2>
+                                <div class="mt-3" style="width: 50px;height: 3.5px;background-color: #149ddd;"></div>
+                                <p class="pt-3">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
+                                    consectetur
+                                    velit.
+                                </p>
+                            </div>
+                            <div id="t-c" class="row mt-5 pt-3" data-aos="fade-up" data-aos-delay="100">
+                                <div class="col-lg-4 col-md-6 col-sm-12">
+                                    <div class="box2"><i class="fa-solid fa-quote-left fs-5"
+                                            style="color: #149ddd;"></i>
+                                        <span>Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla
+                                            quem veniam duis minim tempor labore quem eram duis noster aute amet eram
+                                            fore
+                                            quis sint minim.</span>
+                                        <i class="fa-solid fa-quote-right fs-5" style="color: #149ddd;"></i>
+                                    </div>
+
+                                    <div class="text-center">
+                                        <img src="https://bootstrapmade.com/content/demo/iPortfolio/assets/img/testimonials/testimonials-4.jpg"
+                                            id="p-l" width="100px" class="mt-4" height="100px"
+                                            style="border-radius: 50px;">
+                                        <h3 id="p-l" style=" 
+                font-size: 18px;
+                font-weight: bold;
+               ">Matt Brandon</h3>
+                                        <h4 style="font-size: 14px;" id="p-l">Freelancer</h4>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-12">
+                                    <div class="box2"><i class="fa-solid fa-quote-left fs-5"
+                                            style="color: #149ddd;"></i>
+                                        <span>Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla
+                                            quem veniam duis minim tempor labore quem eram duis noster aute amet eram
+                                            fore
+                                            quis sint minim.</span>
+                                        <i class="fa-solid fa-quote-right fs-5" style="color: #149ddd;"></i>
+                                    </div>
+
+                                    <div class="text-center">
+                                        <img src="https://bootstrapmade.com/content/demo/iPortfolio/assets/img/testimonials/testimonials-5.jpg"
+                                            id="p-l" width="100px" class="mt-4" height="100px"
+                                            style="border-radius: 50px;">
+                                        <h3 id="p-l" style=" 
+                font-size: 18px;
+                font-weight: bold;
+               ">John Lanser</h3>
+                                        <h4 style="font-size: 14px;" id="p-l">Develpor</h4>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-12">
+                                    <div class="box2"><i class="fa-solid fa-quote-left fs-5"
+                                            style="color: #149ddd;"></i>
+                                        <span>Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla
+                                            quem veniam duis minim tempor labore quem eram duis noster aute amet eram
+                                            fore
+                                            quis sint minim.</span>
+                                        <i class="fa-solid fa-quote-right fs-5" style="color: #149ddd;"></i>
+                                    </div>
+
+                                    <div class="text-center">
+                                        <img src="https://bootstrapmade.com/content/demo/iPortfolio/assets/img/testimonials/testimonials-3.jpg"
+                                            id="p-l" width="100px" class="mt-4" height="100px"
+                                            style="border-radius: 50px;">
+                                        <h3 id="p-l" style=" 
+                font-size: 18px;
+                font-weight: bold;
+               ">Jena Karli</h3>
+                                        <h4 style="font-size: 14px;" id="p-l">Store Owner</h4>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <!-- Contact information of company.  -->
+                        <div class="container-fluid">
+                            <div data-aos="fade-up">
+                                <h2 class="pt-5">Contact</h2>
+                                <div class="mt-3" style="width: 50px;height: 3.5px;background-color: #149ddd;"></div>
+                                <p class="pt-3">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
+                                    consectetur
+                                    velit.</p>
+                            </div>
+
+                            <div class="row" style="margin-top: 60px;">
+                                <div class="col-lg-5 col-md-12 col-sm-12">
+                                    <div class="box6">
+                                        <div class="container" data-aos="fade-up" data-aos-delay="100">
+                                            <div class="d-flex align-items-center grid gap-3 ">
+
+                                                <i class="fa-solid fa-location-dot fs-5" style="
+                                            width: 44px;
+                                            height: 44px;
+                                            background-color: #ecf7fd;
+                                            color: #149ddd;
+                                            display: flex
+                                            ;
+                                            justify-content: center;
+                                            align-items: center;
+                                            border-radius: 50px;
+                                            transition: all 0.3s ease-in-out;
+                                           "></i>
+                                                <div class="mt-4">
+                                                    <h3 style="font-size: 18px;">Adress</h3>
+                                                    <p style="font-size: 14px;">A108 Adam Street, New York, NY 535022
+                                                    </p>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="container" data-aos="fade-up" data-aos-delay="200">
+                                            <div class="d-flex align-items-center grid gap-3 pt-3">
+
+                                                <i class="fa-solid fa-phone fs-5" style="
+                                            width: 44px;
+                                            height: 44px;
+                                            background-color: #ecf7fd;
+                                            color: #149ddd;
+                                            display: flex
+                                            ;
+                                            justify-content: center;
+                                            align-items: center;
+                                            border-radius: 50px;
+                                            transition: all 0.3s ease-in-out;
+                                           "></i>
+                                                <div class="mt-1">
+                                                    <h3 style="font-size: 18px;">Call Us</h3>
+                                                    <p style="font-size: 14px;">+1 5589 55488 55
+                                                    </p>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="container" data-aos="fade-up" data-aos-delay="280">
+                                            <div class="d-flex align-items-center grid gap-3 pt-3">
+
+                                                <i class="fa-regular fa-envelope fs-5" style="
+                                            width: 44px;
+                                            height: 44px;
+                                            background-color: #ecf7fd;
+                                            color: #149ddd;
+                                            display: flex
+                                            ;
+                                            justify-content: center;
+                                            align-items: center;
+                                            border-radius: 50px;
+                                            transition: all 0.3s ease-in-out;
+                                           "></i>
+                                                <div class="mt-1">
+                                                    <h3 style="font-size: 18px;">Email Us</h3>
+                                                    <p style="font-size: 14px;">info@example.com
+
+
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <iframe
+                                                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d48389.78314118045!2d-74.006138!3d40.710059!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a22a3bda30d%3A0xb89d1fe6bc499443!2sDowntown%20Conference%20Center!5e0!3m2!1sen!2sus!4v1676961268712!5m2!1sen!2sus"
+                                                frameborder="0" style="border:0; width: 100%; height: 240px;"
+                                                allowfullscreen="" loading="lazy" class="pt-4"
+                                                referrerpolicy="no-referrer-when-downgrade" data-aos="fade-up"
+                                                data-aos-delay="320"></iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-7 col-md-12 col-sm-12">
+                                    <div class="box7">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-lg-6 col-md-6 col-sm-12 mt-3">
+                                                    <label for="">Your Name</label>
+                                                    <input type="text" class="form-control mt-2">
+                                                </div>
+                                                <div class="col-lg-6 col-md-6 col-sm-12 mt-3">
+                                                    <label for="">Your Name</label>
+                                                    <input type="text" class="form-control mt-2">
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="container">
+                                            <div class="row mt-4">
+                                                <div class="col-lg-12 col-md-12 col-sm-12">
+                                                    <label for="">Subject</label>
+                                                    <input type="text" class="form-control mt-2">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-lg-12 col-md-12 col-sm-12">
+                                                    <label for="" class=" mt-4">Message</label>
+                                                    <textarea type="text" class="form-control mt-2" name="" id=""
+                                                        style="height: 200px;"></textarea>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="container">
+                                            <div class="row text-center pt-4">
+                                                <div class="col-lg-12 col-md-12 col-sm-12">
+                                                    <button type="button" class="btn btn-primary rounded-pill px-4 py-2"
+                                                        style="background-color: #149ddd;">Send Message</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-lg-12 col-md-12 col-sm-12">
+                                    <div id="l-s" class="mt-5 pt-5 text-center">
+                                        <p style="color: #272850;font-size: 14px;">© Copyright
+                                            <strong>iPortfolio</strong>
+                                            All Rights Reserved
+                                        </p>
+                                        <p style="font-size: 13px;">Designed by <span style="color: #149ddd;">
+                                                BootstrapMade</span></p>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+        </section>
+    </div>
+    </div>
+</body>
+
+</html>
